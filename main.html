@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Making a Quiz</title>
+         <link rel="stylesheet" href="quiz.css"> 
+         <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> -->
+    </head>
+   
+    <body>
+        <div id = "container">
+            <h2>Quiz using JavaScript</h2>
+            <br/>
+            <div id = "quiz"></div>
+            <div class="button" id = "submit"><a href="#">Submit</a></div>
+            <div class="button" id = "next"><a href="#">Next</a></div>
+            <div class="button" id = "start"><a href="#">Start Quiz</a></div>
+            <div id="dialog" style = "display :none;" >Please select a valid option.<p></p></div>            
+        </div>
+        <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script src="quiz.js"></script>
+    
+    </body>
+</html>
